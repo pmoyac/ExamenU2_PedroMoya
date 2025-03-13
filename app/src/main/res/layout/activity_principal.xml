@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/grupo2"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorPrincipal"
+        android:text="Detalles"/>
+    <Button
+        android:id="@+id/btn_globos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorPrincipal"
+        android:text="Globos"/>
+    <Button
+        android:id="@+id/btn_peluches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorPrincipal"
+        android:text="Peluches"/>
+    <Button
+        android:id="@+id/btn_regalos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorPrincipal"
+        android:text="Regalos"/>
+    <Button
+        android:id="@+id/btn_tazas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorPrincipal"
+        android:text="Tazas"/>
+
+</LinearLayout>
